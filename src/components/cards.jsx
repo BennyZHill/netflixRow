@@ -11,7 +11,7 @@ function Card({imageUrl,body,logo}) {
             <img src= {imageUrl} alt='' />
         </div>
         <div className='card-title'>
-            <h1>marvel <span>A</span>vengers</h1>
+            <h1><div className='Marvel'>marvel</div> Avengers</h1>
          </div>
          <div className='card-body'>
              {body}
@@ -24,7 +24,7 @@ function Card({imageUrl,body,logo}) {
             <img src= {imageUrl} alt='' />
         </div>
         <div className='card-title'>
-            <h2>the witcher</h2>
+            <h2><div className= 'the'>the</div> witcher</h2>
          </div>
          <div className='card-body'>
              {body}
@@ -38,7 +38,7 @@ function Card({imageUrl,body,logo}) {
             <img src= {imageUrl} alt='' />
         </div>
         <div className='card-title'>
-           <h3>A silent voice</h3>
+           <h3>A silent <div className='voice'>voice</div></h3>
          </div>
          <div className='card-body'>
              {body}
