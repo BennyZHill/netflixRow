@@ -38,7 +38,9 @@ function Card({imageUrl,body,logo}) {
             <img src= {imageUrl} alt='' />
         </div>
         <div className='card-title'>
-           <h3>A silent <div className='voice'>voice</div></h3>
+        <h3>
+        Our Planet
+       </h3>
          </div>
          <div className='card-body'>
              {body}
