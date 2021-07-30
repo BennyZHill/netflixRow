@@ -87,7 +87,7 @@ body {
     z-index: -1;
     opacity: .8;
     background: linear-gradient( rgba(61, 60, 60, 0.767)80%, rgb(230, 159, 68));
-    background-blend-mode:screen;
+    background-blend-mode:multiply;
     border-radius: 30px;
 }
 .card1, .card2, .card3 {
@@ -98,16 +98,20 @@ body {
 
 .card1:hover, .card2:hover, .card3:hover {
     
-    filter: brightness(0.9);
-    width: 36%;
+    filter: brightness(.8);
     box-shadow: 0 0px 20px 5px rgba(78, 78, 78, 0.713);
+    width: 40%;
     
 }
 
 
 
+
 .logo{
-    color: rgb(236, 9, 9);
+    background: linear-gradient(to right,
+    rgb(183, 0, 255), rgb(246, 1, 254), rgb(162, 2, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Zen Tokyo Zoo', cursive;
     font-weight:lighter;
     font-size: 10rem;
@@ -117,6 +121,37 @@ body {
     transform: translate(-50%, -50%);
     text-shadow: 20px 10px 20px black;
     -webkit-text-stroke: .5px black;
+}
+.logo2{
+    background: linear-gradient(to right,
+    rgb(255, 0, 0), rgb(173, 6, 6), red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight:lighter;
+    font-size: 10rem;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 20px 10px 20px black;
+    -webkit-text-stroke: .5px black;
+}
+
+.logoAlt{
+    background: linear-gradient(to right,
+    rgb(255, 254, 255), rgb(240, 240, 240), rgb(211, 211, 211));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight:lighter;
+    font-size: 10rem;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 20px 10px 20px black;
+    -webkit-text-stroke: .8px black;
    
     }
     h1{

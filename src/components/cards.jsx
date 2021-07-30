@@ -29,7 +29,7 @@ function Card({imageUrl,body,logo}) {
          <div className='card-body'>
              {body}
         </div>
-        <div className="logo">{logo}</div>
+        <div className="logo2">{logo}</div>
         </div>
 
         
@@ -45,7 +45,7 @@ function Card({imageUrl,body,logo}) {
          <div className='card-body'>
              {body}
         </div>
-        <div className="logo">{logo}</div>
+        <div className="logoAlt">{logo}</div>
         </div>
     </div>
     )
