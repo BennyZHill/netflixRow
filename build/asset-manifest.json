@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/netflixRow/static/css/main.7d6e4197.chunk.css",
+    "main.js": "/netflixRow/static/js/main.615bbe97.chunk.js",
+    "main.js.map": "/netflixRow/static/js/main.615bbe97.chunk.js.map",
+    "runtime-main.js": "/netflixRow/static/js/runtime-main.da9aafbf.js",
+    "runtime-main.js.map": "/netflixRow/static/js/runtime-main.da9aafbf.js.map",
+    "static/js/2.752eef49.chunk.js": "/netflixRow/static/js/2.752eef49.chunk.js",
+    "static/js/2.752eef49.chunk.js.map": "/netflixRow/static/js/2.752eef49.chunk.js.map",
+    "static/js/3.ab6b11d1.chunk.js": "/netflixRow/static/js/3.ab6b11d1.chunk.js",
+    "static/js/3.ab6b11d1.chunk.js.map": "/netflixRow/static/js/3.ab6b11d1.chunk.js.map",
+    "index.html": "/netflixRow/index.html",
+    "static/css/main.7d6e4197.chunk.css.map": "/netflixRow/static/css/main.7d6e4197.chunk.css.map",
+    "static/js/2.752eef49.chunk.js.LICENSE.txt": "/netflixRow/static/js/2.752eef49.chunk.js.LICENSE.txt",
+    "static/media/cards.css": "/netflixRow/static/media/withcer.fa3c3461.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da9aafbf.js",
+    "static/js/2.752eef49.chunk.js",
+    "static/css/main.7d6e4197.chunk.css",
+    "static/js/main.615bbe97.chunk.js"
+  ]
+}
